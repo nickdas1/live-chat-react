@@ -7,9 +7,7 @@ import { Context } from "../contexts/Store";
 export default function SendMessage({ activeTopic }) {
     const { sendChatAction, user } = React.useContext(Context);
     const [textValue, setTextValue] = useState("");
-
-    console.log(user)
-
+    
     return (
         <Box sx={{ display: "flex" }}>
             <TextField
