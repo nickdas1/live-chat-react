@@ -1,5 +1,4 @@
-import "./App.css";
-import Store from "./Store";
+import Store from "./contexts/Store";
 import Dashboard from "./Dashboard";
 
 function App() {
